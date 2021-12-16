@@ -37,6 +37,33 @@ body {
   font-size: 2rem;
   font-weight: bold;
 }
+.language {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 20px;
+  height: 85px;
+  width: 85px;
+}
+.language-txt {
+  margin-top: 5px;
+  color: #252525;
+  font-size: 16px;
+}
+.language-icon {
+  height: 64px;
+  width: 64px;
+}
+.row3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
 .carousel-caption h3 {
   font-size: 1.5rem;
 }
